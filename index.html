@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+
+    <title>Juego-BDO</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="container">
+                <canvas id="vista" width="700" height="600"></canvas>
+                <h2 class="barra" style="text-align: center;margin-bottom: 2px;"></h2>
+            </div>
+          </div>
+          <div class="col">
+            <div class="container">
+                <h1>Instrucciones:</h1>
+            </div>
+            <div class="container">
+            <p>Para disparar misiles debe presionar la tecla Space y para mover la nave con las teclas: <span class="badge bg-primary" style="text-align: center; font-size: medium;">← ↑ → ↓</span> , sino presionando los botones de aquí abajo:</p>
+            </div>
+                <div class="container">
+                    <div class="row row-cols-3">
+                      <div class="col" style="margin-top:15%;" ><button class="button" id="left-btn">←</button></div>
+                      <div class="col" style="margin-top:0%;"><button class="button" id="up-btn">↑</button></div>
+                      <div class="col" style="margin-top:15%;margin-right:0%; "><button class="button" id="right-btn">→</button><br></div>
+                      <div class="col" style="margin-left: 33%;margin-top:0%;"><button class="button" id="down-btn">↓</button></div>  
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="col"> <button class="button" id="fire-btn">Misil</button></div>
+                    <div class="col"><button class="button" id="start-btn">Start</button></div>
+                </div>
+         </div>           
+     </div>
+ </div>
+    <script type="text/javascript" src="./js/app.js"></script>
+</body>
+</html>
